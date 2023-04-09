@@ -1,4 +1,4 @@
-name: GitHub Wireguard Action
+name: on Manual Action
 on: 
   workflow_dispatch:  
 jobs:
