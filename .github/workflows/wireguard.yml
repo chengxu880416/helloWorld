@@ -9,4 +9,4 @@ jobs:
       - name: Deploy the code
         run: |
           echo "a"
-          curl -vvv http://101.42.246.253
+          ping www.baidu.com
