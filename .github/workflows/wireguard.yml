@@ -1,1 +1,11 @@
-
+name: GitHub Wireguard Action
+on: 
+  push:
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Deploy the code
+        run: |
+          echo "a"
